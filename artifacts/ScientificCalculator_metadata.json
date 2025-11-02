@@ -62,7 +62,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"submissions/CCan_08/Day9/calculator.sol": "ScientificCalculator"
+			"submissions/CCan_08/Day9/ScientificCalculator.sol": "ScientificCalculator"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -76,7 +76,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"submissions/CCan_08/Day9/calculator.sol": {
+		"submissions/CCan_08/Day9/ScientificCalculator.sol": {
 			"keccak256": "0xead6e8e1e9f7291011f7acc8db3d6bec3caaef3330cadf38f6d3ebb476235e44",
 			"license": "MIT",
 			"urls": [
