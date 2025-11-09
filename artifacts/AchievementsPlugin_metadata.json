@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getAcheievement",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "latestAchievement",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "achievement",
+						"type": "string"
+					}
+				],
+				"name": "setAchievement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"submissions/CCan_08/Day16/AchievementsPlugin.sol": "AchievementsPlugin"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"submissions/CCan_08/Day16/AchievementsPlugin.sol": {
+			"keccak256": "0x2f8a0fbc92a1a9541efd51ee12d2cf60ebfeada1d17652800b864fa9d62a691c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c512ebed18fb777f32b2fb97fdf4074a9b14bf372e1e29a68a296158d185a854",
+				"dweb:/ipfs/QmWWhznexvCCnqacg684DXwmfAjBGX7jc9GUxDotwUZg2Q"
+			]
+		}
+	},
+	"version": 1
+}

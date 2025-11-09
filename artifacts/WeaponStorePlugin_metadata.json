@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "equippedWeapon",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getWeapon",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "weapon",
+						"type": "string"
+					}
+				],
+				"name": "setWeapon",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"submissions/CCan_08/Day16/WeaponStorePlugin.sol": "WeaponStorePlugin"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"submissions/CCan_08/Day16/WeaponStorePlugin.sol": {
+			"keccak256": "0x40e3c6c1af1bee1c2608eeac22dab7b177b34dcde39b2593114a2dbb20675762",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d951e6d46c9046db2b48430960673d8dd8913f1668e7ebbc2281ab5f8c85502",
+				"dweb:/ipfs/QmbonpED2gmsqbCfpNWG8dtVHs5XA3fXYtWWYq2Jx3ePdA"
+			]
+		}
+	},
+	"version": 1
+}
